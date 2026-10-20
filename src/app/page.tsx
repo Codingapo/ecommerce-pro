@@ -1,3 +1,4 @@
+import { StoreSections } from "@/components/store-sections";
 import Link from "next/link";
 import Image from "next/image";
 import {
@@ -117,6 +118,7 @@ export default async function Home() {
           </Button>
         </div>
       </section>
+      <StoreSections />
     </>
   );
 }

@@ -14,7 +14,7 @@ export function Header() {
           Explore the collection <ArrowUpRight size={12} />
         </Link>
       </div>
-      <header className="site-header">
+      <header id="store-top" className="site-header">
         <Link href="/" className="wordmark">
           {process.env.NEXT_PUBLIC_STORE_NAME || "mulaba"}
           <span>®</span>
@@ -30,6 +30,8 @@ export function Header() {
             Shop all
           </Link>
           <Link href="/category/living">Living</Link>
+          <Link href="/#faq">FAQs</Link>
+          <Link href="/#contact">Contact</Link>
         </nav>
         <div className="header-actions">
           <Link href="/account/wishlist" aria-label="Your wishlist">
